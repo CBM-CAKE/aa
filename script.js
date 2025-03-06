@@ -10,7 +10,7 @@ function showResponse(answer) {
     if (answer) {
         // User clicked "Yes" ❤️
         triggerConfetti();
-        response.innerHTML = "Yay! ❤️ Can't wait to celebrate!";
+        response.innerHTML = "ok";
         
     } else {
         // User clicked "No" 😢
