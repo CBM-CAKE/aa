@@ -16,7 +16,7 @@ function showResponse(answer) {
         // User clicked "No" 😢
         clickCount++; // Increase the click count
 
-        if (clickCount >= 10) {
+        if (clickCount >= 100) {
             // If clicked 5 times, hide the No button
             noButton.style.display = "none";
             response.innerHTML = "s s!";
