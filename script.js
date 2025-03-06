@@ -19,9 +19,9 @@ function showResponse(answer) {
         if (clickCount >= 5) {
             // If clicked 5 times, hide the No button
             noButton.style.display = "none";
-            response.innerHTML = "No more saying 'No'! 😆❤️";
+            response.innerHTML = "s s! 😆❤️";
         } else {
-            response.innerHTML = "Are you sure? 😢 Please reconsider...";
+            response.innerHTML = "a";
 
             // Increase the Yes button size
             yesSize += 20 // Increases font size by 5px each time
