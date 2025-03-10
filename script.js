@@ -21,7 +21,7 @@ function showResponse(answer) {
             noButton.style.display = "none";
             response.innerHTML = "Now you can only say yes. Are you proud of yourself?";
         } else {
-            response.innerHTML = "Keep on pressing no to keep the yes getting bigger. Can be done up to 100 times.";
+            response.innerHTML = "Keep on pressing no to have the yes button get bigger and bigger. Can be done up to 100 times.";
 
             // Increase the Yes button size
             yesSize += 20 // Increases font size by 5px each time
